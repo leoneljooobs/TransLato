@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: telegram-translator-bot
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: BOT_TIMEZONE
+        value: America/New_York
+
