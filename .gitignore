@@ -1,0 +1,25 @@
+# Entorno y variables secretas
+.env
+*.env
+
+# Base de datos SQLite
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
